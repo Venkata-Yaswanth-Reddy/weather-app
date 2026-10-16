@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wether</title>
+    <link rel="stylesheet" href="./weather.css">
+</head>
+<body>
+    <form id="weatherform" >
+    <input type="text" placeholder="Enter city name" id="input">
+    <button type="submit" id="button">Get wether</button>
+    <div id="wetherdisp" style="display: none;">
+        <h1 id="city"></h1>
+        <h1 id="temp"></h1>
+        <p id="Humid"></p>
+        <p id="emoji"></p>
+        <p id="des"></p>
+        <p id="error"></p>
+    </div>
+    </form>
+    
+    <script src="./weather.js"></script>
+</body>
+</html>
